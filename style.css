@@ -20,6 +20,46 @@ img {
     margin-bottom: 5%;
 }
 
+/* contact me */
+
+.btn {
+    background-color:  #4aaaa5;
+    border: none;
+}
+/* portfolio items  */
+
+.leftside {
+    text-align: right;
+}
+
+figure {
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+figure img {
+    width: 50%;
+    height: auto;
+}
+
+figcaption {
+    background-color: #4aaaa5;
+    color: white; 
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    text-align: center;
+    width:50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+figcaption.left {
+    left: 45%;
+}
+
 /* Responsive Web Design */
 
 html {
